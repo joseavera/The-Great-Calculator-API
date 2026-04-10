@@ -9,8 +9,7 @@ public static class Operaciones
     {
         return a - b;
     }
-
-    //9-4-26 11:22
+    //11:42 armando
     // EQUIPO B: Agreguen aquí el método Multiplicar y Dividir
     
     // EQUIPO C: Agreguen aquí el método Potencia (Math.Pow)
