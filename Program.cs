@@ -11,7 +11,7 @@ class Program
             Console.WriteLine("=== CALCULADORA COOPERATIVA TECHBANK ===");
             Console.WriteLine("1. Sumar");
             Console.WriteLine("2. Restar");
-            Console.WriteLine("2. Multiplicar");
+            Console.WriteLine("3. Multiplicar");
             // Los alumnos agregarán más opciones aquí en sus ramas
             Console.WriteLine("0. Salir");
             Console.Write("\nSelecciona una opción: ");
