@@ -11,6 +11,7 @@ class Program
             Console.WriteLine("=== CALCULADORA COOPERATIVA TECHBANK ===");
             Console.WriteLine("1. Sumar");
             Console.WriteLine("2. Restar");
+            Console.WriteLine("2. Multiplicar");
             // Los alumnos agregarán más opciones aquí en sus ramas
             Console.WriteLine("0. Salir");
             Console.Write("\nSelecciona una opción: ");
@@ -31,6 +32,9 @@ class Program
                 case "2":
                     Console.WriteLine($"Resultado: {Operaciones.Restar(n1, n2)}");
                     break;
+                case "3":
+                    Console.WriteLine($"Resultado: {Operaciones.Multiplicar(n1, n2)}");
+                    break;    
                 default:
                     Console.WriteLine("Opción no implementada aún.");
                     break;

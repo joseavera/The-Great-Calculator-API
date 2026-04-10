@@ -9,6 +9,12 @@ public static class Operaciones
     {
         return a - b;
     }
+
+
+    public static double Multiplicar(double a, double b)
+    {
+        return a * b;
+    }
     //11:42 armando}
     //11:43 armando
     // EQUIPO B: Agreguen aquí el método Multiplicar y Dividir
